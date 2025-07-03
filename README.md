@@ -11,10 +11,10 @@ Puedes encontrar más información de este curso en [Auditorías de accesibilida
 Este repositorio contiene la web utilizada en el curso
 
 ```
-├── index.html        # Versión Accesible de la web
+├── index.html            # Versión Accesible de la web
 ├── NoAccesible.html      # Versión No Accesible de la web
-├── css
-├── js
+├── css                   # CSS del HTML
+├── img                   # Imágenes de la web
 ├── LICENSE               # Licencia
 └── README.md             # Este archivo
 ```
