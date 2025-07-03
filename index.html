@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Curso de auditorias de accesibilidad web - versión accesible</title>
+  </head>
+  <body>
+    <header>
+      <a href="#main" class="skip-to-main-content-link">Ir al contenido principal</a>
+      <img src="./img/logo.svg" alt="Logo de Weaaare" />
+        <div class="menu-button__container">
+          <button aria-expanded="false" aria-controls="mainNavigation">Menú
+            <img src="./img/menu.png" alt="">
+          </button>
+        </div>
+      <nav id="mainNavigation">
+        <ul>
+          <li><a href="#introduction">Introducción a la accesibilidad web</a></li>
+          <li><a href="#what">¿Qué es la accesibilidad web?</a></li>
+          <li><a href="#benefits">Beneficios de la accesibilidad</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero-container">
+        <div class="hero-content">
+          <h1>Curso de auditorias de accesibilidad web</h1>
+          <p>
+           Este es un ejemplo de cómo un sitio web accesible debe funcionar con navegación por teclado y lector de pantalla.
+          </p>
+          <div class="hero-links">
+          <a href="#introduction" class="cta-primary">Comenzar</a>
+          <a href="NoAccesible.html" class="cta-secondary">Versión no accesible</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./img/hero.jpg" alt="" />
+        </div>
+      </section>
+      <section class="main-container">
+        <div class="info-container">
+          <div class="info-image-container">
+            <img src="./img/intro.png" alt="" />
+          </div>
+          <div class="info-content" id="introduction" tabindex="-1">
+            <h2>Introducción a la Accesibilidad Web</h2>
+            <p>
+              Cuando los sitios web y las herramientas web están correctamente diseñados y codificados,
+              las personas con discapacidades pueden utilizarlos. Sin embargo, actualmente muchos
+              sitios y herramientas se desarrollan con barreras de accesibilidad que
+              dificultan o imposibilitan su uso para algunas personas. Hacer
+              la web accesible beneficia a individuos, empresas y sociedad.
+              Los estándares web internacionales definen lo que se necesita para
+              la accesibilidad.
+            </p>
+          </div>
+        </div>
+        <div class="info-container">
+          <div class="info-content" id="what" tabindex="-1">
+            <h2>¿Qué es la Accesibilidad Web?</h2>
+            <p>
+              La accesibilidad web significa que los sitios web, herramientas y tecnologías están
+              diseñados y desarrollados para que las personas con discapacidades puedan utilizarlos.
+              Más específicamente, las personas pueden: percibir, entender,
+              navegar e interactuar con la Web y contribuir a ella. La
+              accesibilidad web abarca todas las discapacidades que afectan el acceso a
+              la Web, incluyendo: auditiva, cognitiva, neurológica, física,
+              del habla y visual.
+            </p>
+          </div>
+          <div class="info-image-container">
+            <img src="./img/what.png" alt="" />
+          </div>
+        </div>
+        <div class="info-container">
+          <div class="info-image-container">
+            <img src="./img/benefits.png" alt="" />
+          </div>
+          <div class="info-content" id="benefits" tabindex="-1">
+            <h2>Beneficios de la Accesibilidad</h2>
+            <p>
+              La accesibilidad web también beneficia a personas sin discapacidades, por
+              ejemplo: personas que usan teléfonos móviles, relojes inteligentes, televisores inteligentes y
+              otros dispositivos con pantallas pequeñas, diferentes modos de entrada, etc.
+              personas mayores con cambios en sus habilidades debido a la edad, personas con
+              "discapacidades temporales" como un brazo roto o gafas perdidas,
+              personas con "limitaciones situacionales" como en luz solar brillante
+              o en un entorno donde no pueden escuchar audio, personas
+              que usan una conexión lenta a Internet, o que tienen ancho de banda
+              limitado o costoso.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="faq-container" id="faq" tabindex="-1">
+        <h2>Preguntas frecuentes</h2>
+        <div class="accordions">
+          <h3>
+            <button class="accordion-header" aria-expanded="false" aria-controls="accordionContent1">
+            ¿Cuántas personas se ven afectadas por la accesibilidad?
+              <img src="./img/plus.png" alt="" />
+            </button>
+          </h3>
+          <div id="accordionContent1">
+            <p>
+              La accesibilidad web no es un concepto nuevo, pero ahora es más
+              relevante que nunca, con casi 2 mil millones de personas viviendo con
+              discapacidades en todo el mundo y dependiendo de la web para información,
+              educación y más.
+            </p>
+          </div>
+            <h3>
+            <button class="accordion-header" aria-expanded="false" aria-controls="accordionContent2">
+              <div>¿Cómo funcionan las tablas con un lector de pantalla?</div>
+              <img src="./img/plus.png" alt="" />
+            </button>
+            </h3>
+            <div id="accordionContent2">
+              <p>
+                Imagina una tabla en una página web como una cuadrícula organizada de
+                información, como filas y columnas en una hoja de cálculo. Para alguien
+                que depende de un lector de pantalla debido a una discapacidad visual, esta herramienta
+                lee el contenido, describiendo los encabezados en la parte superior que actúan
+                como títulos para cada columna. Permite una navegación fácil,
+                permitiendo a los usuarios moverse a través de las celdas de la tabla y explorar la
+                información. Así como los edificios tienen rampas para la accesibilidad, los desarrolladores web
+                aseguran que las tablas sean accesibles para todos utilizando características
+                que funcionan con lectores de pantalla, creando una experiencia en línea
+                acogedora donde todos, independientemente de sus habilidades, pueden
+                entender y participar con el contenido sin esfuerzo.
+              </p>
+            <table border="1">
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Teléfono</th>
+                <th scope="col">Fax</th>
+                <th scope="col">Ciudad</th>
+              </tr>
+              <tr>
+                <td>Joel Garner</th>
+                <td>412-212-5421</td>
+                <td>412-212-5400</td>
+                <td>Pittsburgh</td>
+              </tr>
+              <tr>
+                <td>Clive Lloyd</th>
+                <td>410-306-1420</td>
+                <td>410-306-5400</td>
+                <td>Baltimore</td>
+              </tr>
+              <tr>
+                <td>Gordon Greenidge</th>
+                <td>281-564-6720</td>
+                <td>281-511-6600</td>
+                <td>Houston</td>
+              </tr>
+            </table>
+            </div>
+            <h3>
+            <button class="accordion-header" aria-expanded="false" aria-controls="accordionContent3">
+              <div>¿Qué es una tecnología asistiva?</div>
+              <img src="./img/plus.png" alt="" />
+            </button>
+            </h3>
+            <div id="accordionContent3">
+            <p>
+              La tecnología asistiva se refiere a dispositivos, herramientas, software o
+              equipos diseñados para ayudar a personas con discapacidades a realizar tareas
+              que podrían ser desafiantes o imposibles para ellos de otra manera. Estas
+              tecnologías tienen como objetivo mejorar la independencia, calidad de vida y
+              accesibilidad de las personas con discapacidades. La tecnología
+              asistiva puede cubrir una amplia gama de áreas, incluyendo movilidad,
+              comunicación, audición, visión y habilidades cognitivas. Ejemplos
+              de tecnología asistiva incluyen lectores de pantalla para personas con discapacidad visual,
+              audífonos para personas con pérdida auditiva, dispositivos de
+              comunicación para personas con impedimentos del habla, teclados
+              adaptativos para personas con desafíos motores, y muchas otras
+              herramientas especializadas adaptadas para satisfacer necesidades específicas. El objetivo de
+              la tecnología asistiva es cerrar la brecha entre personas con
+              discapacidades y las oportunidades proporcionadas por la tecnología,
+              educación, empleo y vida diaria.
+            </p>
+            </div>
+            <h3>
+            <button class="accordion-header" aria-expanded="false" aria-controls="accordionContent4">
+              <div>¿Cómo podemos ayudar?</div>
+              <img src="./img/plus.png" alt="" />
+            </button>
+            </h3>
+            <div id="accordionContent4">
+              <ul>
+  <li><strong>Educación y Concienciación:</strong> Todos los empleados deben fomentar la conciencia y comprensión de los principios de accesibilidad. Proporcionar sesiones de capacitación o recursos sobre la creación de contenido inclusivo, diseño de interfaces accesibles y consideración de diversas necesidades de los usuarios.</li>
+
+  <li><strong>Comunicación Inclusiva:</strong> Todos los empleados deben usar un lenguaje claro y conciso en la comunicación escrita y verbal. Proporcionar formatos alternativos para información importante, como agendas de reuniones, para acomodar diversas necesidades.</li>
+
+  <li><strong>Accesibilidad de Documentos:</strong> Los creadores de contenido deben asegurarse de que los documentos, presentaciones y otro contenido se creen teniendo en cuenta la accesibilidad. Esto incluye usar estructuras de encabezados apropiadas, texto alternativo para imágenes y formatos de documento accesibles.</li>
+
+  <li><strong>Mejora Continua:</strong> Liderazgo y Gestión deben fomentar una cultura de mejora continua evaluando y mejorando regularmente las políticas, prácticas y tecnologías de accesibilidad dentro de la organización.</li>
+
+  <li><strong>Defensa y Apoyo:</strong> Gerentes y Colegas deben abogar por iniciativas de accesibilidad y apoyar a colegas que puedan requerir adaptaciones. Fomentar un entorno de trabajo inclusivo donde se valoren la diversidad y la accesibilidad.</li>
+</ul>
+
+<p>Recuerda, promover la accesibilidad es un esfuerzo continuo que implica colaboración en todos los niveles de una organización. Al trabajar juntos, los empleados pueden contribuir a crear un lugar de trabajo que sea inclusivo y adaptado para todos.</p>
+
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" tabindex="-1">
+      <img src="./img/logo.svg" alt="logo de weaare" />
+      <div class="footer-content">
+        <h2>Contáctanos</h2>
+        <a href="#">hola@weaaare.com</a>
+      </div>
+      <ul>
+        <li>
+          <a href="#"><img src="./img/social/facebook.png" alt="facebook" /></a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/social/instagram.png" alt="instagram" />
+          </a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/social/twitter.png" alt="twitter" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/social/youtube.png" alt="youtube" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/social/linkedin.png" alt="linkedin" /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    const menuButton = document.querySelector('.menu-button__container button')
+    const menuContent = document.querySelector('header nav')
+    const mainNavigation = document.querySelector('#mainNavigation')
+    let isMenuButtonExpanded = mainNavigation.getAttribute('aria-expanded') === "false"
+
+    menuButton.addEventListener('click', function () {
+      menuContent.style.display =  isMenuButtonExpanded ? 'none' : 'block' 
+      isMenuButtonExpanded = !isMenuButtonExpanded
+      menuButton.setAttribute('aria-expanded', isMenuButtonExpanded)
+    })
+
+    accordionHeaders.forEach(header => {
+      header.addEventListener('click', function () {
+        const isExpanded = header.getAttribute('aria-expanded') === "false"
+        const accordionContent = document.getElementById(header.parentElement.nextElementSibling.id)
+        accordionContent.style.display = !isExpanded ? "none" : "block"
+        header.setAttribute('aria-expanded', isExpanded)
+      });
+    });
+  });
+  </script>
+</html>
+
