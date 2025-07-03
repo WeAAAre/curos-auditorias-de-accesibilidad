@@ -11,7 +11,7 @@ Puedes encontrar más información de este curso en [Auditorías de accesibilida
 Este repositorio contiene la web utilizada en el curso
 
 ```
-├── Accesible.html        # Versión Accesible de la web
+├── index.html        # Versión Accesible de la web
 ├── NoAccesible.html      # Versión No Accesible de la web
 ├── css
 ├── js
